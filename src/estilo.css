@@ -1,0 +1,35 @@
+.container{
+   display: flex;
+   flex-direction: column; 
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.textoFrase{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;   
+}
+
+.botaoBiscoito{
+    background-color: #dd7b22; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor do mouse */
+  transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+}
+
+/* Estilizando o botão quando o cursor passa por cima */
+.botaoBiscoito:hover {
+    background-color: #ffca28; /* Cor de fundo ao passar o cursor por cima */
+  }
